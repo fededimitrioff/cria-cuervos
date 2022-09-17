@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;700&family=Montserrat:wght@400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +49,9 @@ ul a {
   margin-left: 5px;
   margin-right: 5px; }
 
+.titulosCursiva {
+  font-family: "Permanent Marker", cursive; }
+
 .nav {
   background-color: #163856; }
   .nav .navbar-toggler {
@@ -89,7 +93,8 @@ ul a {
     margin: 30px; }
     .main .section3 h3 {
       margin: 30px;
-      margin-top: 50px; }
+      margin-top: 50px;
+      font-family: "Permanent Marker", cursive; }
     .main .section3 .noticiasContainer {
       display: flex;
       justify-content: center;
@@ -348,7 +353,8 @@ ul a {
     color: #eff6eece;
     font-style: italic;
     text-align: center;
-    padding: 25px; }
+    padding: 25px;
+    font-family: "Permanent Marker", cursive; }
   .galeriaContenedor .galeria {
     display: grid;
     grid-template-columns: 1fr;
@@ -408,15 +414,19 @@ ul a {
     .contacto .contactoContenedor .contactoContenedor2 {
       width: 50%; }
       .contacto .contactoContenedor .contactoContenedor2 .tituloContacto {
-        font-size: 20px;
+        font-size: 30px;
         padding: 10px 0 30px 0;
-        text-align: center; }
+        text-align: center;
+        font-family: "Permanent Marker", cursive; }
       .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario {
         text-align: center; }
         .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario select {
-          margin-top: 20px; }
+          margin-top: 20px;
+          border-radius: 5px; }
         .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario input, .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario textarea, .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario select {
-          text-align: center; }
+          border-radius: 10px;
+          text-align: center;
+          border: .1px solid black; }
           .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario input:focus, .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario textarea:focus, .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario select:focus {
             background-color: #16385656; }
         .contacto .contactoContenedor .contactoContenedor2 .contactoFormulario .boton-compartir {
@@ -439,6 +449,8 @@ ul a {
   flex-direction: column;
   text-align: justify;
   padding: 0 10vw; }
+  .noticianoticia img {
+    border-radius: 5px; }
   .noticianoticia p {
     margin: 5vh 0; }
 
@@ -660,7 +672,7 @@ ul a {
   .contacto .contactoContenedor {
     width: 100%; }
     .contacto .contactoContenedor .contactoContenedor2 .tituloContacto {
-      font-size: 17px; }
+      font-size: 25px; }
   .footer {
     padding: 10px; }
     .footer ul {
