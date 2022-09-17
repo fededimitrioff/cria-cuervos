@@ -1,0 +1,72 @@
+// Main Index
+
+.main {
+    background-image: linear-gradient(to left, $gris, rgba(0, 0, 0, 0.623));
+    border-bottom: 0.01px solid $azul;
+    margin-top: 120px;
+
+    .section2 {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+
+        img {
+            margin: 20px;
+            width: 365px;
+            height: 396px;
+        }
+
+        p {
+            @include estilo-texto(1.5, 18px);
+            text-align: right;
+            margin: 20px;
+        }
+    }
+
+    .section3 {
+        color: $azul;
+        text-align: center;
+        margin: 30px;
+
+        h3 {
+            margin: 30px;
+            margin-top: 50px;
+        }
+
+        .noticiasContainer {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            a {
+                text-decoration: none;
+                .noticia1 {
+                    @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/insua_akuszl.jpg));
+                }
+
+                .noticia2 {
+                    @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa_cnja8l.jpg));
+                }
+
+                .noticia3 {
+                    @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa2_lqppex.jpg));
+                }
+
+                .noticia4 {
+                    @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/batalla_sdu9t1.jpg));
+                }
+
+                .noticia5 {
+                    @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/concentrados_hm7fc8.jpg));
+                }
+
+                .noticia6 {
+                    @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/ortiz_vh4noj.jpg));
+                }
+            }
+
+        }
+    }
+}

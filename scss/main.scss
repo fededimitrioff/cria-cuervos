@@ -1,0 +1,214 @@
+// RESETS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+}
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+//VARIABLES
+@import './partials/variables/colors';
+@import './partials/variables/fonts';
+@import './partials/variables/extend-mixin';
+
+
+//ELEMENTS
+@import './partials/elements/selectores-generales';
+@import './partials/elements/navbar';
+
+
+//SECTIONS
+@import './partials/sections/main-index';
+@import './partials/sections/sobre-nosotros';
+@import './partials/sections/escuchanos';
+@import './partials/sections/galeria';
+@import './partials/sections/contacto';
+
+
+//NEWS
+@import './partials/sections/news';
+
+
+// FOOTER
+@import './partials/elements/footer';
+
+
+// MEDIAS QUERYS
+@media (max-width:1260px) {
+    .input-nombre {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1020px) {
+    .videosContenedor {
+        .videoCarrusel {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .header {
+        position: static;
+        img {
+            width: 70px;
+        }
+    }
+    .main {
+        margin-top: 0;
+        .section3{
+            margin: 0;
+        }
+    }
+    .containerNews{
+        display: flex;
+        flex-direction: column;
+    }
+    .quienesSomos,
+    .videosContenedor,
+    .galeriaContenedor,
+    .contacto, .tituloNews {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 868px) {
+    
+    .contacto {
+        .contactoContenedor {
+            img {
+                display: none;
+            }
+            .contactoContenedor2 {
+                .contactoFormulario {
+                    display: flex;
+                    flex-direction: column;
+                    input {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 832px) {
+    .main {
+        .section2 {
+            padding: 0;
+            img {
+                display: none;
+            }
+            p {
+                text-align: center;
+                margin: 0;
+            }
+        }
+    }
+    .tituloNews{
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .tituloNews{
+        h1 {
+            font-size: 20px;
+        }
+    }
+    .videosContenedor {
+        .videoPrincipal {
+            height: 70vh;
+        }
+    }
+    .galeriaContenedor{
+        .subtitulo {
+            font-size: 15px;
+        }
+        .galeria{
+            div{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .fotos1, .fotos2, .fotos3{
+                img{
+                    width: 70%;
+                }
+            }
+        }
+    }
+    .contacto {
+        .contactoContenedor {
+            .contactoContenedor2 {
+                .contactoFormulario {
+                    select {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 470px) {
+    .main {
+        .section2 {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .videosContenedor {
+        .titulo-escuchanos{
+            h1 {
+                font-size: 20px;
+            }
+        }
+        .videoPrincipal {
+            iframe {
+                transform: scale(.8,.8);
+            }
+        }
+        .videoCarrusel {
+            iframe {
+                transform: scale(.7,.7);
+            }
+        }
+    }
+    .tituloNews{
+        h1 {
+            font-size: 15px;
+        }
+    }
+    .contacto {
+        .contactoContenedor {
+            width: 100%;
+            .contactoContenedor2 {
+                .tituloContacto {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    .footer {
+        padding: 10px;
+        ul {
+            margin: 15px;
+            li {
+                padding: 10px;
+                margin: 5px;
+            }
+        }
+    }
+}

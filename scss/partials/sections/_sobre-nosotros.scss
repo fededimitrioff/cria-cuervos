@@ -1,0 +1,36 @@
+// PÁGINA 2 - SOBRE NOSOTROS
+.quienesSomos {
+    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/cesped4_qcqgng.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 120px;
+    padding: 5px;
+    .cartas {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .primeraCarta,
+        .segundaCarta {
+            background-color: #eff6eece;
+            width: 300px;
+            text-align: center;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 40px;
+            color: #163856;
+            img {
+                margin: 20px;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                border: 2px solid black;
+            }
+            p {
+                @include estilo-texto (25px, 18px);
+                padding: 20px 10px 10px 10px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+}

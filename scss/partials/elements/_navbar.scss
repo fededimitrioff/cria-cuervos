@@ -1,0 +1,22 @@
+// NAVBAR
+
+.nav {
+    background-color: $azul;
+    .navbar-toggler {
+        border: .4px solid $gris-transparencia;
+        background-color: rgba(255, 255, 255, 0.678);
+    }
+    .navbar-collapse {
+        ul {
+            text-align: end;
+            a {
+                color: white;
+                &:hover {
+                    color: $gris-transparencia;
+                    font-weight: bold;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+}

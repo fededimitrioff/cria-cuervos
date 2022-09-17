@@ -1,0 +1,53 @@
+// PÁGINA 5 - CONTACTO
+
+.contacto {
+    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/backgroundsl5_kcd3ck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    .contactoContenedor {
+        display: flex;
+        width: 66vw;
+        background-color: #eff6eec7;
+        border-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        img {
+            margin: 20px;
+            width: 50%;
+            height: 350px;
+            border-radius: 25px 0 0 25px;
+        }
+        .contactoContenedor2 {
+            width: 50%;
+            .tituloContacto {
+                font-size: 20px;
+                padding: 10px 0 30px 0;
+                text-align: center;
+            }
+            .contactoFormulario {
+                text-align: center;
+                select {
+                    margin-top: 20px;
+                }
+                input, textarea, select {
+                    text-align: center;
+                    &:focus {
+                        background-color: #16385656;
+                    }
+                }
+                .boton-compartir {
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

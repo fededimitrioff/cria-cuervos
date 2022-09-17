@@ -1,0 +1,28 @@
+// SELECTORES GENERALES
+ul{
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: $gris-transparencia;
+            font-weight: bold;
+            transition: .3s;
+        }
+    }
+}
+.header__ul--active{
+    font-weight: 900;
+}
+.bold {
+    font-weight: bold;
+}
+.titulo-general {
+    @extend %titulo-general;
+}
+
+.strong{
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,36 @@
+// PÁGINA 3 - ESCUCHANOS
+
+.videosContenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "encabezado encabezado encabezado encabezado"
+        "videoPrincipal videoPrincipal videoPrincipal videoPrincipal"
+        "videoCarrusel videoCarrusel videoCarrusel videoCarrusel";
+    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/cesped4_qcqgng.webp);
+    margin-top: 120px;
+    .encabezado {
+        grid-area: encabezado;
+    }
+    .videoPrincipal {
+        grid-area: videoPrincipal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        iframe {
+            border: 3px solid #eff6eece;
+            margin: 20px;
+        }
+    }
+    .videoCarrusel {
+        grid-area: videoCarrusel;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        iframe {
+            border: 3px solid #eff6eece;
+            margin: 20px;
+        }
+    }
+}

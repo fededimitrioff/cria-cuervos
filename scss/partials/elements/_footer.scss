@@ -1,0 +1,30 @@
+// FOOTER
+.footer {
+    background-color: $azul;
+    padding: 10px;
+    p {
+        font-family: $monserrat;
+        color: white;
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    ul {
+        text-align: center;
+        margin: 10px;
+        list-style-type: none;
+        padding-left: 0;
+        li {
+            display: inline;
+            padding: 20px;
+            margin: 10px;
+            i {
+                font-size: 1.5rem;
+                &:hover {
+                    font-size: 1.8rem;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}

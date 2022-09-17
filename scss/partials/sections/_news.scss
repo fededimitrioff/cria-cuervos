@@ -1,0 +1,72 @@
+//NEWS
+
+.containerNews {  display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr;
+    grid-template-rows: .5fr .5fr .5fr .5fr .1fr .5fr;
+    grid-template-areas:
+      ". noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal ."
+      ". noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal ."
+      ". noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal ."
+      ". noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal noticiaPrincipal ."
+      ". subtituloNews subtituloNews subtituloNews subtituloNews subtituloNews subtituloNews subtituloNews subtituloNews ."
+      ". spot1 spot1 . spot2 spot2 . spot3 spot3 .";
+  }
+  
+.tituloNews, .titulo-general{ 
+    grid-area: titulo-general;
+    padding: 50px;
+}
+.noticianoticia { 
+    grid-area: noticiaPrincipal;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    padding: 0 10vw;
+    p{
+        margin: 5vh 0;
+    }
+}
+.subtituloNews { 
+    grid-area: subtituloNews;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: $azul;
+    font-style: italic;
+    text-align: center;
+    padding: 25px;
+}
+.spot1 { 
+    grid-area: spot1;
+    .noticia2 {
+        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa_cnja8l.jpg));
+        width: 28vw;
+    } 
+}
+  
+.spot2 { 
+    grid-area: spot2;
+    .noticia3 {
+        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa2_lqppex.jpg));
+        width: 28vw;
+    } 
+}
+  
+.spot3 { 
+    grid-area: spot3;
+    .noticia4 {
+        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/batalla_sdu9t1.jpg));
+        width: 28vw;
+    } 
+}
+
+.masNoticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    a{
+        text-decoration: none;
+    }
+}
