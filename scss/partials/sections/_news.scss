@@ -44,7 +44,7 @@
 .spot1 { 
     grid-area: spot1;
     .noticia2 {
-        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa_cnja8l.jpg));
+        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/sanlorenzo-defensa_cnja8l.jpg));
         width: 28vw;
     } 
 }
@@ -52,7 +52,7 @@
 .spot2 { 
     grid-area: spot2;
     .noticia3 {
-        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa2_lqppex.jpg));
+        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/sanlorenzo-defensa2_lqppex.jpg));
         width: 28vw;
     } 
 }
@@ -60,7 +60,7 @@
 .spot3 { 
     grid-area: spot3;
     .noticia4 {
-        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/batalla_sdu9t1.jpg));
+        @include noticia (url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/batalla_sdu9t1.jpg));
         width: 28vw;
     } 
 }

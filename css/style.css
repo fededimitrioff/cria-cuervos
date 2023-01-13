@@ -105,7 +105,7 @@ ul a {
         .main .section3 .noticiasContainer a .noticia1 {
           display: flex;
           align-items: end;
-          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/insua_akuszl.jpg);
+          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/insua_akuszl.jpg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -133,7 +133,7 @@ ul a {
         .main .section3 .noticiasContainer a .noticia2 {
           display: flex;
           align-items: end;
-          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa_cnja8l.jpg);
+          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/sanlorenzo-defensa_cnja8l.jpg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -161,7 +161,7 @@ ul a {
         .main .section3 .noticiasContainer a .noticia3 {
           display: flex;
           align-items: end;
-          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa2_lqppex.jpg);
+          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/sanlorenzo-defensa2_lqppex.jpg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -189,7 +189,7 @@ ul a {
         .main .section3 .noticiasContainer a .noticia4 {
           display: flex;
           align-items: end;
-          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/batalla_sdu9t1.jpg);
+          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/batalla_sdu9t1.jpg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -217,7 +217,7 @@ ul a {
         .main .section3 .noticiasContainer a .noticia5 {
           display: flex;
           align-items: end;
-          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/concentrados_hm7fc8.jpg);
+          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/concentrados_hm7fc8.jpg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -245,7 +245,7 @@ ul a {
         .main .section3 .noticiasContainer a .noticia6 {
           display: flex;
           align-items: end;
-          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/ortiz_vh4noj.jpg);
+          background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/ortiz_vh4noj.jpg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -272,7 +272,7 @@ ul a {
             background-color: rgba(0, 0, 255, 0.596); }
 
 .quienesSomos {
-  background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/cesped4_qcqgng.webp);
+  background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/Cria%20Cuervos/cesped4_qcqgng.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -312,7 +312,7 @@ ul a {
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: auto;
   grid-template-areas: "encabezado encabezado encabezado encabezado" "videoPrincipal videoPrincipal videoPrincipal videoPrincipal" "videoCarrusel videoCarrusel videoCarrusel videoCarrusel";
-  background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/cesped4_qcqgng.webp);
+  background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/Cria%20Cuervos/cesped4_qcqgng.webp);
   margin-top: 120px; }
   .videosContenedor .encabezado {
     grid-area: encabezado; }
@@ -338,7 +338,7 @@ ul a {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto auto 1fr 1fr 1fr;
   grid-template-areas: "tituloGaleria tituloGaleria tituloGaleria tituloGaleria tituloGaleria tituloGaleria" "subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo" "galeria galeria galeria galeria galeria galeria" "galeria galeria galeria galeria galeria galeria" "galeria galeria galeria galeria galeria galeria";
-  background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327731/imagenes/backgroundsloscuro_aegk1e.jpg);
+  background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327731/imagenes/Cria%20Cuervos/backgroundsloscuro_aegk1e.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -388,7 +388,7 @@ ul a {
           transition: .5s; }
 
 .contacto {
-  background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/backgroundsl5_kcd3ck.jpg);
+  background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662327732/imagenes/Cria%20Cuervos/backgroundsl5_kcd3ck.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -471,7 +471,7 @@ ul a {
   .spot1 .noticia2 {
     display: flex;
     align-items: end;
-    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa_cnja8l.jpg);
+    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/sanlorenzo-defensa_cnja8l.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -503,7 +503,7 @@ ul a {
   .spot2 .noticia3 {
     display: flex;
     align-items: end;
-    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/sanlorenzo-defensa2_lqppex.jpg);
+    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/sanlorenzo-defensa2_lqppex.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -535,7 +535,7 @@ ul a {
   .spot3 .noticia4 {
     display: flex;
     align-items: end;
-    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/batalla_sdu9t1.jpg);
+    background-image: url(https://res.cloudinary.com/dky9l6ebl/image/upload/v1662466616/imagenes/Cria%20Cuervos/batalla_sdu9t1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
